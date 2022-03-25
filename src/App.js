@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./Components/Header/Header";
+import Products from "./Components/Products/Products";
 import Services from "./Components/Services/Services";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Header />
       <Services />
+      <Products />
     </div>
   );
 }

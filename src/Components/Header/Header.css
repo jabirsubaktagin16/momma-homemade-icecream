@@ -1,0 +1,16 @@
+header {
+  background-color: #fbf0f4;
+}
+
+#top-banner h6 {
+  font-family: "Fira Sans", sans-serif;
+}
+
+#top-banner h1 {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 3.5rem;
+}
+
+.pink-text {
+  color: #d23166;
+}

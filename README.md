@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Momma Homemade Ice Cream
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Website Link: [Momma Homemade Ice Cream](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

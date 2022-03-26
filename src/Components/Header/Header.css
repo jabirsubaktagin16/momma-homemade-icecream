@@ -1,7 +1,3 @@
-/* header {
-  background-color: #fbf0f4;
-} */
-
 #top-banner h6 {
   font-family: "Fira Sans", sans-serif;
 }
@@ -17,4 +13,8 @@
 
 nav {
   background-color: #fbf0f4;
+}
+
+#shopping-cart {
+  cursor: pointer;
 }

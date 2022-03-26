@@ -52,6 +52,7 @@ const Header = () => {
               <li className="nav-item">
                 <a
                   className="nav-link"
+                  id="shopping-cart"
                   data-bs-toggle="offcanvas"
                   data-bs-target="#offcanvasRight"
                   aria-controls="offcanvasRight"

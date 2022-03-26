@@ -3,6 +3,13 @@
   color: white;
 }
 
-.btn-close {
+.selected-products-button {
+  border: 1px solid white;
+  color: white;
+  font-weight: 600;
+}
+
+.selected-products-button:hover {
+  color: #d23166;
   background-color: white;
 }

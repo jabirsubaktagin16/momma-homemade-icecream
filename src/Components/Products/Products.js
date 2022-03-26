@@ -1,6 +1,12 @@
+import {
+  faArrowsRotate,
+  faCircleCheck,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
 import { addToDb, getStoredCart } from "../../utilities/localStorage";
 import Product from "../Product/Product";
+import Cart from "./../Cart/Cart";
 import "./Products.css";
 
 const Products = () => {
@@ -59,14 +65,12 @@ const Products = () => {
       </div>
       <div
         className="offcanvas offcanvas-end"
-        tabindex="-1"
+        tabIndex="-1"
         id="offcanvasRight"
         aria-labelledby="offcanvasRightLabel"
       >
         <div className="offcanvas-header">
-          <h5 id="offcanvasRightLabel" className="text-center">
-            Selected Products
-          </h5>
+          <h5 id="offcanvasRightLabel">{""}</h5>
           <button
             type="button"
             className="btn-close text-reset"
@@ -74,10 +78,32 @@ const Products = () => {
             aria-label="Close"
           ></button>
         </div>
-        <div className="offcanvas-body">
-          {cart.map((item) => (
-            <li>{item.name}</li>
-          ))}
+        <div className="offcanvas-body p-4">
+          <h5 className="text-center">Selected Products</h5>
+          <div className="g-5 mt-3">
+            {cart.length !== 0 ? (
+              cart.map((item) => <Cart item={item} key={item.id} />)
+            ) : (
+              <h6 className="text-center">Oops!! Nothing Found</h6>
+            )}
+          </div>
+
+          <div className="d-grid gap-2 mt-3">
+            <button
+              className="btn selected-products-button rounded-0"
+              type="button"
+            >
+              Select 1 Ice Cream for Me{" "}
+              <FontAwesomeIcon className="ms-2" icon={faArrowsRotate} />
+            </button>
+            <button
+              className="btn selected-products-button rounded-0"
+              type="button"
+            >
+              Select New Ice Creams{" "}
+              <FontAwesomeIcon className="ms-2" icon={faCircleCheck} />
+            </button>
+          </div>
         </div>
       </div>
     </section>

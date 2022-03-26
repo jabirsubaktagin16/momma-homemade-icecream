@@ -7,6 +7,7 @@ import React, { useEffect, useState } from "react";
 import { addToDb, getStoredCart } from "../../utilities/localStorage";
 import Product from "../Product/Product";
 import Cart from "./../Cart/Cart";
+import RecommendedIceCream from "./../RecommendedIceCream/RecommendedIceCream";
 import "./Products.css";
 
 const Products = () => {
@@ -47,6 +48,21 @@ const Products = () => {
     addToDb(selectedProduct.id);
   };
 
+  const [iceCream, setIceCream] = useState([]);
+
+  const selectRandomIceCream = () => {
+    if (cart.length > 0) {
+      const newIceCream = [];
+      newIceCream.push(cart[Math.floor(Math.random() * cart.length)]);
+      setIceCream(newIceCream);
+    }
+  };
+
+  const chooseNewIceCreams = () => {
+    setCart([]);
+    setIceCream([]);
+  };
+
   return (
     <section className="container my-5" id="products">
       <h2 className="text-center">Our Products</h2>
@@ -73,7 +89,7 @@ const Products = () => {
           <h5 id="offcanvasRightLabel">{""}</h5>
           <button
             type="button"
-            className="btn-close text-reset"
+            className="btn-close text-reset btn-close-white"
             data-bs-dismiss="offcanvas"
             aria-label="Close"
           ></button>
@@ -84,12 +100,22 @@ const Products = () => {
             {cart.length !== 0 ? (
               cart.map((item) => <Cart item={item} key={item.id} />)
             ) : (
-              <h6 className="text-center">Oops!! Nothing Found</h6>
+              <h6 className="text-center">
+                Select Ice Creams from our collection
+              </h6>
             )}
           </div>
-
+          <div className="my-3">
+            {iceCream.map((recommendation) => (
+              <RecommendedIceCream
+                recommendation={recommendation}
+                key={recommendation.id}
+              />
+            ))}
+          </div>
           <div className="d-grid gap-2 mt-3">
             <button
+              onClick={selectRandomIceCream}
               className="btn selected-products-button rounded-0"
               type="button"
             >
@@ -97,6 +123,7 @@ const Products = () => {
               <FontAwesomeIcon className="ms-2" icon={faArrowsRotate} />
             </button>
             <button
+              onClick={chooseNewIceCreams}
               className="btn selected-products-button rounded-0"
               type="button"
             >

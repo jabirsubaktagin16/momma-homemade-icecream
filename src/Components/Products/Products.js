@@ -4,7 +4,11 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
-import { addToDb, getStoredCart } from "../../utilities/localStorage";
+import {
+  addToDb,
+  deleteShoppingCart,
+  getStoredCart,
+} from "../../utilities/localStorage";
 import Product from "../Product/Product";
 import Cart from "./../Cart/Cart";
 import RecommendedIceCream from "./../RecommendedIceCream/RecommendedIceCream";
@@ -61,6 +65,7 @@ const Products = () => {
   const chooseNewIceCreams = () => {
     setCart([]);
     setIceCream([]);
+    deleteShoppingCart();
   };
 
   return (

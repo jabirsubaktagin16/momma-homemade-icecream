@@ -19,9 +19,7 @@ const Services = () => {
             <div className="card-body text-center">
               <h5 className="card-title">Free Shipping</h5>
               <p className="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Shipping Is On Us For Free Shipping Day!
               </p>
             </div>
           </div>
@@ -39,9 +37,7 @@ const Services = () => {
             <div className="card-body text-center">
               <h5 className="card-title">Quick Packaging</h5>
               <p className="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                We have good reputation for quick packaging
               </p>
             </div>
           </div>
@@ -59,9 +55,7 @@ const Services = () => {
             <div className="card-body text-center">
               <h5 className="card-title">100% Money Back</h5>
               <p className="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                You can get 100% cash back on your order
               </p>
             </div>
           </div>
@@ -79,9 +73,7 @@ const Services = () => {
             <div className="card-body text-center">
               <h5 className="card-title">Fast Delivery</h5>
               <p className="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                We guarantee you to deliver withing 24 hours of order
               </p>
             </div>
           </div>

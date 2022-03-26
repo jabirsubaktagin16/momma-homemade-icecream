@@ -5,7 +5,7 @@ import "./Cart.css";
 
 const Cart = (props) => {
   const { item } = props;
-  const { name, image } = item;
+  const { id, name, image } = item;
   return (
     <div className="row d-flex align-items-center shadow p-2 cart-items">
       <div className="col-2">
@@ -15,7 +15,7 @@ const Cart = (props) => {
         <h6>{name}</h6>
       </div>
       <div className="col-2 text-end">
-        <FontAwesomeIcon icon={faTrashCan} />
+        <FontAwesomeIcon icon={faTrashCan} className="delete-item" />
       </div>
     </div>
   );

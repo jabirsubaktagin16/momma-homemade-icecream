@@ -134,11 +134,14 @@ const FAQ = () => {
               >
                 <div className="accordion-body">
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Vitae assumenda facere eveniet ex dolor nesciunt vero error
-                    earum ipsa? Ad, officia amet magnam deleniti quos sit, id,
-                    accusantium velit quaerat odit eveniet doloribus saepe non
-                    mollitia nam laborum sequi. Sequi.
+                    useState is a variable that can be a string or a number or a
+                    boolean or an object or an array and so on. It returns an
+                    array with 2 elements. Here, first element is the current
+                    value of the state and other one is state setter function.
+                    Value of the new state depends on the previous state value.
+                    A function can be passed to the setter function. useState
+                    make sure to spread the state variable and then call the
+                    setter function while dealing with object and array.
                   </p>
                 </div>
               </div>

@@ -73,10 +73,11 @@ const Header = () => {
               <span className="pink-text">ice-cream.</span>
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Architecto officia, perferendis, commodi temporibus quo laudantium
-              ab eveniet natus est incidunt, odit accusantium magni vitae!
-              Doloremque at nisi tempore tempora hic!
+              Ice-cream is one of the most popular desserts. It is a frozen
+              dessert made out of milk and cream generally and come in many
+              flavours. Though children love ice creams the most, these days ice
+              creams are made for all age-groups. There are ice creams even for
+              diabetics and heart patients.
             </p>
             <div className="d-grid gap-2 d-md-block">
               <button className="momma-button">Explore Now</button>

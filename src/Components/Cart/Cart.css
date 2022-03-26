@@ -6,3 +6,7 @@ h6 {
   background-color: white;
   color: #d23166;
 }
+
+.delete-item {
+  cursor: pointer;
+}

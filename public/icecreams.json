@@ -2,84 +2,84 @@
   {
     "id": "f11440c4db0d4fa1b928c177b1792679",
     "name": "Vanilla",
-    "image": "../../images/products/vanila.jpg",
+    "image": "https://i.ibb.co/g34HbC9/vanila.jpg",
     "details": "Ah. The most iconic ice cream flavor known to man. Did you know that vanilla is actually the most popular flavor out there? Yup, the well-loved chocolate ice cream does not even come close! Over 90% of Americans prefer vanilla over chocolate or any other flavor. It's not surprising, considering how versatile it is! Whether you eat it on its own or enjoy it on top of a pie, good old-fashioned vanilla ice cream will not disappoint. Here's another fun fact. In Hawaii, there is a fruit that tastes just like vanilla ice cream. They call it the inga feuillei or ice cream bean, and it thrives only in tropical climates.",
     "price": 0.8
   },
   {
     "id": "4cc4ed2455d34a6ba848975b40f92bad",
     "name": "Chocolate",
-    "image": "../../images/products/chocolate.jpg",
+    "image": "https://i.ibb.co/L8SN7Lx/chocolate.jpg",
     "details": "If you think that the vanilla ice cream started it all, think again. Chocolate ice cream, while only second to vanilla in popularity, actually came first. It's the first ice cream flavor ever invented. Chocolate ice cream is already decadent on its own. But it has a myriad of sinful varieties, which are featured on this list as well.",
     "price": 1.0
   },
   {
     "id": "b71f568efa9942599931a9612ec427f0",
     "name": "Chocolate Chip",
-    "image": "../../images/products/chocolate-chip.jpg",
+    "image": "https://i.ibb.co/wSRpjwp/chocolate-chip.jpg",
     "details": "Chocolate chip ice cream is another fan favorite, which is not surprising. It's a combination of two well-loved classics. Just imagining sweet and crunchy chocolate chips in every bite of vanilla ice cream makes my taste buds tingle.",
     "price": 1.2
   },
   {
     "id": "9fc35d2fbfc849ab86d5cca080dee86e",
     "name": "Butter Pecan",
-    "image": "../../images/products/butter-pecan.jpg",
+    "image": "https://i.ibb.co/2FPsH9Q/butter-pecan.jpg",
     "details": "Another classic and a personal favorite of mine is butter pecan. Who can say no to vanilla ice cream mixed with crisp pecans roasted in butter? It's the perfect combination of sweet, salty, buttery, and crunchy. Did you know that the pecan is Alabama's state nut? As such, butter pecan is very popular there. Fellow butter pecan lovers, time to pack your bags, we're off to Alabama.",
     "price": 1.25
   },
   {
     "id": "33a79627059141339d3a4a4c3e9b0e4e",
     "name": "Chocolate Chip Cookie Dough",
-    "image": "../../images/products/chocolate-chip-cookie.jpg",
+    "image": "https://i.ibb.co/C78JvtS/chocolate-chip-cookie.jpg",
     "details": "As if good old chocolate chip ice cream isn’t good enough, ice cream makers upped the game even further. Adding chunks of sweet and chewy cookie dough to the classic, you get such an irresistible combination of flavors and textures. And come on, who here didn’t munch on leftover raw cookie dough as a kid? The chocolate chip cookie dough is a nostalgic flavor that will bring fond childhood memories, minus the risk of getting Salmonella! Here’s an interesting fact for you: this fantastic flavor was invented by none other than Ben and Jerry’s! It happened in 1984 when an anonymous person submitted the flavor on their flavor suggestion board. Too bad they didn’t name themselves!",
     "price": 2.0
   },
   {
     "id": "6204e54df8234e53833680dba80fb301",
     "name": "Eggnog",
-    "image": "../../images/products/eggnog.jpg",
+    "image": "https://i.ibb.co/CPj71Tm/eggnog.jpg",
     "details": "Who doesn't love some good old fashioned eggnog during the holidays? This seasonal flavor will warm your heart and give you some Christmas cheer. Do you know that eggnog ice cream is easy to make? It's just a matter of mixing your favorite eggnog with heavy cream, condensed milk, and vanilla. Then you freeze it for several hours or until it reaches ice cream consistency, and you're done!",
     "price": 2.5
   },
   {
     "id": "8a0f3624010448369703b2a63183731a",
     "name": "Strawberry",
-    "image": "../../images/products/strawberry.jpg",
+    "image": "https://i.ibb.co/gjCb6DL/strawberry.jpg",
     "details": "Going back to the basics, here's another iconic flavor for you. Strawberry ice cream is pretty to look at and it's so tasty! The combination of sweet and tart is just pure satisfaction. The exact origin of the flavor is unknown. But the first documented strawberry ice cream dates as far back as 1813, during the inauguration of James Madison, the fourth President of the United States.",
     "price": 2.75
   },
   {
     "id": "2d9b22cb8ede4d0ea7a0b69a6e17dd42",
     "name": "Horchata",
-    "image": "../../images/products/horchata.jpg",
+    "image": "https://i.ibb.co/hCTDMwk/horchata.jpg",
     "details": "Horchata is a Mexican-inspired ice cream flavor made with the iconic horchata – a plant milk, tiger nut, or white rice-based beverage. It's rich, creamy, and since it's infused with cinnamon, has a nice hint of spice. While ice cream is not the most nutritious of treats out there, did you know that horchata is? While it has a lot of calories, it's also packed with vitamins and minerals.",
     "price": 2.85
   },
   {
     "id": "eea60e0d8f9f419b8d11a838af465cdb",
     "name": "Lemon Custard",
-    "image": "../../images/products/lemon-custard.jpg",
+    "image": "https://i.ibb.co/gyczGff/lemon-custard.jpg",
     "details": "Lemon custard ice cream tastes exactly how you would imagine it. It's smooth, creamy, and has that wonderful sweet and tangy combination going on. While it's such a delight to eat, it's not as popular since it does not go well with other flavors. You can't exactly combine lemon custard and chocolate, can you? When having a scoop or two of lemon custard, be sure to enjoy its goodness all on its own. After all, it's perfect as it is – no need to add anything more.",
     "price": 3.0
   },
   {
     "id": "a63e77b6a6a545bcaae08301cc10a81f",
     "name": "Cookies 'N Cream",
-    "image": "../../images/products/cookies-n-cream.jpg",
+    "image": "https://i.ibb.co/Mg4KF1j/cookies-n-cream.jpg",
     "details": "Cookies 'n Cream is yet another well-loved flavor both by kids and the kids-at-heart. After all, who can say no to vanilla ice cream and chocolate sandwich cookies? Aside from the luscious flavor, the lovely contrast of crisp cookies and thick ice cream makes it so phenomenal. Cookies 'n Cream is one of the top 5 best-selling ice cream flavors of all time, which is probably why several people claim to be its maker.",
     "price": 3.25
   },
   {
     "id": "6fa2d8c8c39e4aea834dcc269759f639",
     "name": "Mint Chocolate Chip",
-    "image": "../../images/products/mint-chocolate.jpg",
+    "image": "https://i.ibb.co/wsBQhCn/mint-chocolate.jpg",
     "details": "Mint chocolate chip: either you love it, or you hate it. It is perhaps the most polarizing flavor out there! You know who loves the flavor so much, though? The royal family! In fact, the flavor was invented for the royal family. In 1973, English culinary student Marilyn Ricketts submitted it in a competition for creating a new flavor for Princess Anne's wedding. It's original name? The Mint Royale. How very appropriate.",
     "price": 3.25
   },
   {
     "id": "8a40b00946b64ce1966c17ab4be2b800",
     "name": "Moose Tracks",
-    "image": "../../images/products/moose-tracks.jpg",
+    "image": "https://i.ibb.co/zHwk8wh/moose-tracks.jpg",
     "details": "Moose Tracks. The name isn't exactly appetizing! But this ice cream flavor is spectacular, to say the least. Moose Tracks is a trademarked flavor by the Denali Flavors company.It's a combination of vanilla ice cream, mini-peanut butter cups, and chocolate fudge. Typing that sentence alone made me drool! ",
     "price": 3.5
   }

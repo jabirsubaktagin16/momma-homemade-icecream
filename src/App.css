@@ -6,7 +6,7 @@ body {
 }
 
 /* From cssbuttons.io by @alexmaracinaru */
-button {
+.momma-button {
   cursor: pointer;
   transition: all 0.2s;
   font-weight: 500;
@@ -18,7 +18,7 @@ button {
   font-size: 15px;
 }
 
-button:hover {
+.momma-button:hover {
   background: transparent;
   color: #d23166;
   border: 1px solid #d23166;

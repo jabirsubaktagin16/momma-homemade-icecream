@@ -1,17 +1,19 @@
+import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import "./Header.css";
 
 const Header = () => {
   return (
     <header>
-      <nav className="navbar navbar-expand-lg navbar-light">
+      <nav className="navbar navbar-expand-lg navbar-light fixed-top">
         <div className="container">
           <a className="navbar-brand" href="#">
             <img
               src={require("../../images/logo.png")}
               alt=""
-              width="70"
-              height="70"
+              width="60"
+              height="60"
             />
           </a>
           <button
@@ -47,11 +49,21 @@ const Header = () => {
                   FAQ
                 </a>
               </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasRight"
+                  aria-controls="offcanvasRight"
+                >
+                  <FontAwesomeIcon icon={faShoppingCart} />
+                </a>
+              </li>
             </ul>
           </div>
         </div>
       </nav>
-      <section className="container" id="top-banner">
+      <section className="container mt-4" id="top-banner">
         <div className="row d-flex align-items-center">
           <div className="col-lg-6 order-last order-lg-first">
             <h6>Sweet fun, full of milk.</h6>
@@ -66,7 +78,7 @@ const Header = () => {
               Doloremque at nisi tempore tempora hic!
             </p>
             <div className="d-grid gap-2 d-md-block">
-              <button>Explore Now</button>
+              <button className="momma-button">Explore Now</button>
             </div>
           </div>
           <div className="col-lg-6">

@@ -5,15 +5,14 @@ import "./Product.css";
 
 const Product = (props) => {
   const { product, handleAddToCart } = props;
-  const { name, image, details, price } = product;
+  const { name, image, price } = product;
   return (
     <div className="col">
       <div className="card h-100 border-0 shadow p-3">
         <img src={image} alt="" />
         <div className="card-body">
           <h5 className="card-title text-center">{name}</h5> <br />
-          {/* <p className="card-text">{details.slice(0, 200)}</p> <br /> */}
-          <h1 className="text-center">$ {price}</h1>
+          <h1 className="text-center">$ {price.toFixed(2)}</h1>
         </div>
         <div className="card-footer">
           <div className="text-center">

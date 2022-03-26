@@ -8,6 +8,7 @@ import {
   addToDb,
   deleteShoppingCart,
   getStoredCart,
+  removeFromDb,
 } from "../../utilities/localStorage";
 import Product from "../Product/Product";
 import Cart from "./../Cart/Cart";
@@ -48,8 +49,12 @@ const Products = () => {
       exists.quantity = exists.quantity + 1;
       newCart = [...rest, exists];
     }
-    setCart(newCart);
-    addToDb(selectedProduct.id);
+    if (newCart.length <= 4) {
+      setCart(newCart);
+      addToDb(selectedProduct.id);
+    } else {
+      alert("You Can't Add More than 4 Items");
+    }
   };
 
   const [iceCream, setIceCream] = useState([]);
@@ -66,6 +71,11 @@ const Products = () => {
     setCart([]);
     setIceCream([]);
     deleteShoppingCart();
+  };
+
+  const deleteSingleItem = (id) => {
+    setCart(cart.filter((cartItem) => cartItem.id !== id));
+    removeFromDb(id);
   };
 
   return (
@@ -103,7 +113,13 @@ const Products = () => {
           <h5 className="text-center">Selected Products</h5>
           <div className="g-5 mt-3">
             {cart.length !== 0 ? (
-              cart.map((item) => <Cart item={item} key={item.id} />)
+              cart.map((item) => (
+                <Cart
+                  item={item}
+                  key={item.id}
+                  deleteSingleItem={deleteSingleItem}
+                />
+              ))
             ) : (
               <h6 className="text-center">
                 Select Ice Creams from our collection

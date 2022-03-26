@@ -4,7 +4,7 @@ import React from "react";
 import "./Cart.css";
 
 const Cart = (props) => {
-  const { item } = props;
+  const { item, deleteSingleItem } = props;
   const { id, name, image } = item;
   return (
     <div className="row d-flex align-items-center shadow p-2 cart-items">
@@ -15,7 +15,11 @@ const Cart = (props) => {
         <h6>{name}</h6>
       </div>
       <div className="col-2 text-end">
-        <FontAwesomeIcon icon={faTrashCan} className="delete-item" />
+        <FontAwesomeIcon
+          onClick={() => deleteSingleItem(id)}
+          icon={faTrashCan}
+          className="delete-item"
+        />
       </div>
     </div>
   );

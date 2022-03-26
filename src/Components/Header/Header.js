@@ -64,7 +64,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
-      <section className="container mt-4" id="top-banner">
+      <section className="container my-5" id="top-banner">
         <div className="row d-flex align-items-center">
           <div className="col-lg-6 order-last order-lg-first">
             <h6>Sweet fun, full of milk.</h6>

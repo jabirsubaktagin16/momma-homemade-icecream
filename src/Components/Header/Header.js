@@ -85,8 +85,8 @@ const Header = () => {
           </div>
           <div className="col-lg-6">
             <img
-              src={require("../../images/icecream-top.png")}
-              className="img-fluid"
+              src={require("../../images/icecream-top.gif")}
+              className="img-fluid w-100"
               alt="..."
             />
           </div>

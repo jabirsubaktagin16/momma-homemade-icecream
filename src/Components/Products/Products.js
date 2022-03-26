@@ -78,6 +78,8 @@ const Products = () => {
     removeFromDb(id);
   };
 
+  const recommendedItemClose = () => setIceCream([]);
+
   return (
     <section className="container my-5" id="products">
       <h2 className="text-center">Our Products</h2>
@@ -130,6 +132,7 @@ const Products = () => {
             {iceCream.map((recommendation) => (
               <RecommendedIceCream
                 recommendation={recommendation}
+                recommendedItemClose={recommendedItemClose}
                 key={recommendation.id}
               />
             ))}

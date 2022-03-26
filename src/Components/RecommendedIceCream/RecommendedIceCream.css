@@ -6,3 +6,12 @@ h6 {
   background-color: white;
   color: #d23166;
 }
+
+#recommendation-close {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+#recommendation-close:hover {
+  opacity: 1;
+}
